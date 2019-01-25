@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CarComponent }   from './component/car/car.component';
+import { CarComponent }   from './entities/car/car.component';
 
 const routes: Routes = [ 
 	{ path: '', redirectTo: '/car', pathMatch: 'full' },
