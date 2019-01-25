@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CarComponent } from './entities/car/car.component';
+import { AppHeaderComponent } from './layout/header/app-header/app-header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CarComponent
+    CarComponent,
+    AppHeaderComponent
   ],
   imports: [
     BrowserModule,
