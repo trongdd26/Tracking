@@ -1,4 +1,4 @@
-import { Car } from '../component/car/car';
+import { Car } from '../../shared/model/car';
 
 export const CARS: Car[] = [
   new Car('1', '29T1 2206'),
