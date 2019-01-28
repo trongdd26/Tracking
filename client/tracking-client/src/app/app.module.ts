@@ -1,20 +1,30 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AgmCoreModule } from '@agm/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CarComponent } from './entities/car/car.component';
 import { AppHeaderComponent } from './layout/header/app-header/app-header.component';
+import { AppAsideComponent } from './layout/nav/app-aside/app-aside.component';
+import { AppFooterComponent } from './layout/footer/app-footer/app-footer.component';
+import { TrackingComponent } from './layout/main/tracking/tracking.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarComponent,
-    AppHeaderComponent
+    AppHeaderComponent,
+    AppAsideComponent,
+    AppFooterComponent,
+    TrackingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyA5ZKYMYEYDlfioHfi6IIxcykUxcOgSfts'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

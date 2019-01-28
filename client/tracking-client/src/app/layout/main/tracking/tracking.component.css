@@ -1,0 +1,9 @@
+agm-map {
+    height: 83vh;
+}
+.content-wrapper {
+    display:flex; flex-flow: column;min-height: 0; height: 89%;
+}
+.content-wrapper .content{
+    flex-grow: 1; width: 100%;
+}

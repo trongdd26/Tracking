@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CarComponent }   from './entities/car/car.component';
+import { TrackingComponent }   from './layout/main/tracking/tracking.component';
 
 const routes: Routes = [ 
-	{ path: '', redirectTo: '/car', pathMatch: 'full' },
-	{ path: 'car', component: CarComponent }
+	{ path: '', redirectTo: '/tracking', pathMatch: 'full' },
+	{ path: 'tracking', component: TrackingComponent }
 ];
 
 @NgModule({
