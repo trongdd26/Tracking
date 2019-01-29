@@ -9,6 +9,8 @@ import { AppHeaderComponent } from './layout/header/app-header/app-header.compon
 import { AppAsideComponent } from './layout/nav/app-aside/app-aside.component';
 import { AppFooterComponent } from './layout/footer/app-footer/app-footer.component';
 import { TrackingComponent } from './layout/main/tracking/tracking.component';
+import { HistoryComponent } from './layout/main/history/history.component';
+import { ManagerComponent } from './layout/main/manager/manager.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { TrackingComponent } from './layout/main/tracking/tracking.component';
     AppHeaderComponent,
     AppAsideComponent,
     AppFooterComponent,
-    TrackingComponent
+    TrackingComponent,
+    HistoryComponent,
+    ManagerComponent
   ],
   imports: [
     BrowserModule,
