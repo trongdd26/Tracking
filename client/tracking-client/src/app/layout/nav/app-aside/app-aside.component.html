@@ -1,0 +1,28 @@
+<aside class="main-sidebar">
+  <!-- sidebar: style can be found in sidebar.less -->
+  <section class="sidebar">
+    <!-- sidebar menu: : style can be found in sidebar.less -->
+    <ul class="sidebar-menu" data-widget="tree">
+      <li class="header">MAIN NAVIGATION</li>
+      <li [ngClass]="{'active': currentPath == '/tracking'}">
+        <a routerLink="/tracking">
+          <i class="fa fa-files-o"></i>
+          <span>MENU1</span>
+        </a>
+      </li>
+      <li [ngClass]="{'active': currentPath == '/history'}">
+        <a routerLink="/history">
+          <i class="fa fa-files-o"></i>
+          <span>MENU2</span>
+        </a>
+      </li>
+      <li [ngClass]="{'active': currentPath == '/manager'}">
+        <a routerLink="/manager">
+          <i class="fa fa-files-o"></i>
+          <span>MENU3</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <!-- /.sidebar -->
+</aside>

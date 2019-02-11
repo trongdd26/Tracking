@@ -39,6 +39,9 @@ yarn-error.log
 testem.log
 /typings
 
+# bower
+/src/bower_components
+
 # System Files
 .DS_Store
 Thumbs.db
